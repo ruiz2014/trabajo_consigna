@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>{{ title }}</h1>
+    <br>
+    <p>{{ message }}</p>
+    <br>
+    <table class="table-load">
+      <thead>
+        <tr>
+          <th>Nombre de Archivo</th>
+          <th>Imagen de Archivo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ filename }}</td>
+          <td><img style="width:80px;height: 90px;" src="/upload/{{filename}}" alt="imagen de carga"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <a href="/inicio">Volver al inicio</a>
+  </div>

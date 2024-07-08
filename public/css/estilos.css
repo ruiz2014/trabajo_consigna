@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3{
+    font-weight: 400;
+}
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: #2f5e91ed;
+    color: white;
+    padding: 1px 65px;
+}
+.menu{
+    display:flex;
+    list-style: none;
+}
+/* .menu li{
+    
+    
+} */
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+}
+.menu li a:hover{
+    background: rgb(41, 41, 75);
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    /* border:1px solid green; */
+}
+table {
+    width:100%;
+    /* border: #b2b2b2 1px solid; */
+    border-collapse: collapse;
+}
+thead{
+    background: #28916eb0;
+    color: white;
+}
+th{
+    padding: 20px 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+td{
+    padding: 10px;
+    border-bottom: solid 1px #c1c8ce;
+}
+/* td, th {
+    border: black 1px solid;
+    font-weight: 300;
+} */
+table tr td img{
+    width:50px;
+}
+.body-card{
+    display: flex;
+}
+.details{
+    margin-left: 60px;
+}
+.details h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.table-load td{
+    text-align: center;
+}
+
+table.dataTable thead > tr > th.dt-orderable-asc{
+    font-weight: 400 !important;
+}
